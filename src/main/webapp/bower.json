@@ -1,0 +1,31 @@
+{
+  "name": "springrest-backbone",
+  "version": "0.0.1",
+  "homepage": "https://github.com/sjyun/spring-boot-petclinic-api",
+  "authors": [
+    "sjyun <darkandark90@gmail.com>"
+  ],
+  "description": "springboot backbone integration",
+  "main": "controller",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "backbone"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "latest",
+    "jquery": "latest",
+    "backbone-amd": "latest",
+    "underscore-amd": "latest"
+  }
+}
